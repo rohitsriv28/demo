@@ -1,7 +1,7 @@
 name: Daily Commit
 on:
   schedule:
-    - cron: '15 9 * * *'  # 02:45 PM IST
+    - cron: '25 9 * * *'  # 02:45 PM IST
   workflow_dispatch:  # Allow manual triggering for testing
 
 jobs:
